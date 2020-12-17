@@ -5,13 +5,9 @@ local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloo
 local NiggaWTab = Library:CreateWindow("NiggaWare")
 local NiggaMTab = NiggaWTab:CreateFolder("Main")
 
-NiggaMTab:Button("Button",function()
-    print("Elym Winning")
-end)
-
 NiggaMTab:Toggle("Toggle",function(bool)
-    Toggle.Toggle = bool
-    print(Toggle.Toggle)
+    shared.toggle = bool
+    print(shared.toggle)
 end)
 
 NiggaMTab:Slider("Walk Speed",{
