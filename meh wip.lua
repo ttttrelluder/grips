@@ -1,3 +1,5 @@
+-- Don't use this. If you use this, you're fucking retarded. This script is no where near finished. I'm just uploading it to save it.
+
 local Player = game.Players.LocalPlayer
 local Character = Player.Character
 local Humanoid = Character.Humanoid
